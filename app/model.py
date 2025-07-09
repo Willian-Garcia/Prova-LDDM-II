@@ -19,6 +19,9 @@ def treinar_modelo(salvar_resultado_json=True):
         skiprows=1
     )
 
+    # Limpeza da coluna de rótulos de emoção (remove ;;; e espaços extras)
+    df["emocao"] = df["emocao"].astype(str).str.strip().str.replace(";", "", regex=False)
+
     df['texto'] = df['texto'].astype(str)
     df['clean_text'] = df['texto'].apply(limpar_texto)
     y = df['emocao']

@@ -1,35 +1,35 @@
 {
-    "alegria;;;": {
+    "alegria": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
         "support": 160.0
     },
-    "medo;;;": {
+    "medo": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
         "support": 177.0
     },
-    "nojo;;;": {
+    "nojo": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
         "support": 159.0
     },
-    "raiva;;;": {
+    "raiva": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
         "support": 169.0
     },
-    "surpresa;;;": {
+    "surpresa": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
         "support": 169.0
     },
-    "tristeza;;;": {
+    "tristeza": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
